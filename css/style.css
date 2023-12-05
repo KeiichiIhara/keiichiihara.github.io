@@ -12,12 +12,24 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+
 /* 表示するコンテンツを中央に配置 */
-.contents-wrapper{
-    width: 1280px;
+.contents-wrapper {
+    max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-left: 25px; /* 左の余白を追加 */
+    padding-right: 25px; /* 右の余白を追加 */
+    box-sizing: border-box; /* ボックスサイズの計算方法を変更 */
+
 }
+
+
+.special-link {
+    color: black; /* 特定のリンクの色を黒に設定 */
+  }
+  
 
 .container{
     display: flex;
