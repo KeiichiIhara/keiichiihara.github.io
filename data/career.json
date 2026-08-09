@@ -1,0 +1,60 @@
+[
+    {
+    "period": "2026.05 - 2026.08",
+    "organization": "Sony CSL",
+    "role": "Research Intern",
+    "people": [
+      {
+        "name": "Shunichi Kasahara",
+        "url": "https://shunichikasahara.com/"
+      }
+    ]
+  },
+  {
+    "period": "2024.09 - 2025.03",
+    "organization": "Singapore Management University",
+    "role": "Research Intern",
+    "people": [
+      {
+        "name": "Min Lee",
+        "url": "https://minl22.github.io/"
+      },
+      {
+        "name": "Tony Tang",
+        "url": "https://hcitang.github.io/"
+      }
+    ]
+  },
+  {
+    "period": "2024.04 - 2024.08",
+    "organization": "Tohoku University",
+    "role": "Visiting Researcher",
+    "people": [
+      {
+        "name": "Yoshifumi Kitamura",
+        "url": "https://www.riec.tohoku.ac.jp/~kitamura/"
+      }
+    ]
+  },
+  {
+    "period": "2022.11 - 2023.09",
+    "organization": "University of Calgary",
+    "role": "Visiting Researcher",
+    "people": [
+      {
+        "name": "Ryo Suzuki",
+        "url": "https://ryosuzuki.org/"
+      }
+    ]
+  },
+  {
+    "period": "2022.04 - 2024.03",
+    "organization": "University of Tsukuba",
+    "role": "ME, Computer Science"
+  },
+  {
+    "period": "2018.04 - 2022.03",
+    "organization": "University of Tsukuba",
+    "role": "BS, Media Sciences and Engineering"
+  }
+]

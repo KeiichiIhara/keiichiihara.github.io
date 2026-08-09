@@ -1,0 +1,249 @@
+[
+  {
+    "heading": "Full Paper",
+    "items": [
+      {
+        "title": "CinemaWorld: Generative Augmented Reality with LLMs and 3D Scene Generation for Movie Augmentation",
+        "url": "https://arxiv.org/abs/2603.08060",
+        "venue_short": "UIST 2026",
+        "authors": "Keiichi Ihara, DaeHo Lee, Manato Abe, Hye-Young Jo, Ryo Suzuki",
+        "venue": "The 39th Annual ACM Symposium on User Interface Software and Technology (UIST 2026)",
+        "media": {
+          "type": "video",
+          "src": "./video/uist2026-cinemaworld.mp4"
+        },
+        "video_url": "https://www.youtube.com/watch?v=sOsJ9f0otFY",
+        "links": [
+          {
+            "label": "Paper",
+            "href": "./paper/uist2026-cinemaworld.pdf",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      },
+            {
+        "title": "MapStory: Prototyping Editable Map Animations with LLM Agents",
+        "url": "https://dl.acm.org/doi/10.1145/3746059.3747664",
+        "venue_short": "UIST 2025",
+        "authors": "Aditya Gunturu, Ben Pearman, Keiichi Ihara, Morteza Faraji, Bryan Wang, Rubaiat Habib Kazi, Ryo Suzuki",
+        "venue": "The 38th Annual ACM Symposium on User Interface Software and Technology (UIST 2025)",
+        "media": {
+          "type": "video",
+          "src": "./video/uist2025-mapstory.mp4"
+        },
+        "video_url": "https://www.youtube.com/watch?v=sOsJ9f0otFY",
+        "links": [
+          {
+            "label": "Paper",
+            "href": "./paper/uist2025-mapstory.pdf",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      },
+      {
+        "title": "Video2MR: Automatically Generating Mixed Reality 3D Instructions by Augmenting Extracted Motion from 2D Videos",
+        "url": "https://dl.acm.org/doi/10.1145/3708359.3712159",
+        "venue_short": "IUI 2025",
+        "authors": "Keiichi Ihara, Kyzyl Monteiro, Mehrad Faridan, Rubaiat Habib Kazi, Ryo Suzuki",
+        "venue": "The 30th International Conference on Intelligent User Interfaces (IUI 2025)",
+        "media": {
+          "type": "video",
+          "src": "./video/iui2025_video2mr.mp4"
+        },
+        "video_url": "https://www.youtube.com/watch?v=f1L-2US25PU",
+        "links": [
+          {
+            "label": "Paper",
+            "href": "./paper/iui2025-Video2mr.pdf",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      },
+      {
+        "title": "HoloBots: Augmenting Holographic Telepresence with Mobile Robots for Tangible Remote Collaboration in Mixed Reality",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3586183.3606727",
+        "venue_short": "UIST 2023",
+        "authors": "Keiichi Ihara, Mehrad Faridan, Ayumi Ichikawa, Ikkaku Kawaguchi, Ryo Suzuki",
+        "venue": "The 36th Annual ACM Symposium on User Interface Software and Technology (UIST 2023)",
+        "media": {
+          "type": "video",
+          "src": "./video/uist2023-holobots.mp4"
+        },
+        "video_url": "https://www.youtube.com/watch?v=KSBPtiXy8Hg",
+        "links": [
+          {
+            "label": "Paper",
+            "href": "./paper/uist2023-HoloBots.pdf",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      },
+      {
+        "title": "Investigation of How Animal Avatar Affects Users’ Self-Disclosure and Subjective Responses in One-on-One Interactions in VR",
+        "url": "https://dl.acm.org/doi/10.1145/3604571.3604582",
+        "venue_short": "Asian CHI 2023",
+        "authors": "Ayumi Ichikawa, Keiichi Ihara, Ikkaku Kawaguchi",
+        "venue": "The Asian CHI Symposium (Asian CHI Symposium 2023)",
+        "media": {
+          "type": "video",
+          "src": "./video/asianchi2023-DogVR.mp4"
+        },
+        "links": [
+          {
+            "label": "Paper",
+            "href": "./paper/asianchi2023-DogVR.pdf",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      },
+      {
+        "title": "AR Object Layout Method Using Miniature Room Generated from Depth Data",
+        "url": "https://diglib.eg.org/handle/10.2312/egve20221274",
+        "venue_short": "ICAT-EGVE 2022",
+        "authors": "Keiichi Ihara, Ikkaku Kawaguchi",
+        "venue": "The International Conference on Artificial Reality and Telexistence & the Eurographics Symposium on Virtual Environments (ICAT-EGVE 2022)",
+        "media": {
+          "type": "video",
+          "src": "./video/icat2022-miniatureAR.mp4"
+        },
+        "links": [
+          {
+            "label": "Paper",
+            "href": "./paper/AR Object Layout Method Using Miniature Room Generated from Depth Data.pdf",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      },
+      {
+        "title": "Virtual Object Placement in MR Space Using a 3D Miniature Model of a Room",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3516492.3558789",
+        "venue_short": "Asian CHI 2022",
+        "authors": "Keiichi Ihara, Ikkaku Kawaguchi",
+        "venue": "The Asian CHI Symposium (Asian CHI 2022 Symposium)",
+        "media": {
+          "type": "image",
+          "src": "./img/AsianCHI06.png",
+          "alt": "Virtual Object Placement in MR Space paper preview"
+        },
+        "links": [
+          {
+            "label": "Paper",
+            "href": "https://dl.acm.org/doi/pdf/10.1145/3516492.3558789",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "heading": "Posters and Demos",
+    "items": [
+      {
+        "title": "Hybrid Robot with Physical and AR Body Presentation",
+        "url": "https://diglib.eg.org/handle/10.2312/egve20221310",
+        "venue_short": "ICAT-EGVE 2022",
+        "authors": "Ikkaku Kawaguchi, Ayumi Ichikawa, Keiichi Ihara, Ryo Ishibashi, Aoto Tanokashira",
+        "venue": "The International Conference on Artificial Reality and Telexistence & the Eurographics Symposium on Virtual Environments (ICAT-EGVE 2022)",
+        "media": {
+          "type": "image",
+          "src": "./img/MRRobot.png",
+          "alt": "Hybrid Robot poster preview"
+        },
+        "links": [
+          {
+            "label": "Paper",
+            "href": "./paper/icat2023-HybridRobot-Poster.pdf",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      },
+      {
+        "title": "Investigating the Effect of Animal Avatars on Users’ Self-disclosure During Interaction in VR space",
+        "url": "https://diglib.eg.org/handle/10.2312/egve20221308",
+        "venue_short": "ICAT-EGVE 2022",
+        "authors": "Ayumi Ichikawa, Keiichi Ihara, Aoto Tanokashira, Ikkaku Kawaguchi",
+        "venue": "The International Conference on Artificial Reality and Telexistence & the Eurographics Symposium on Virtual Environments (ICAT-EGVE 2022)",
+        "media": {
+          "type": "image",
+          "src": "./img/Dog.png",
+          "alt": "Animal avatar poster preview"
+        },
+        "links": [
+          {
+            "label": "Paper",
+            "href": "./paper/icat2023-DogVR-Poster.pdf",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "heading": "Full Paper in Japanese",
+    "items": [
+      {
+        "text": "川口一画，井原圭一，市川あゆみ，佐方葵，守新太郎，「物理的提示とAR提示を併用するハイブリッド型ロボットにおける頭部と腕部の提示方法の違いによる影響」，情報処理学会論文誌 65-3，情報処理学会，2024年。"
+      },
+      {
+        "text": "守新太郎，井原圭一，川口一画，「ARハンドとEMSによる手指の同期を用いた遠隔でのピアノ演奏指導」，第31回インタラクティブシステムとソフトウェアに関するワークショップ（WISS 2023），日本ソフトウェア科学会，2023年11月29日-12月1日。",
+        "links": [
+          {
+            "label": "Paper",
+            "href": "https://www.wiss.org/WISS2023Proceedings/data/06.pdf",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      },
+      {
+        "text": "石橋遼，田之頭吾音，井原圭一，川口一画，「AR空間内における視線およびコントローラを用いたオブジェクト操作手法」，第30回インタラクティブシステムとソフトウェアに関するワークショップ（WISS 2022），日本ソフトウェア科学会，2022年12月14-16日。",
+        "links": [
+          {
+            "label": "Paper",
+            "href": "https://www.wiss.org/WISS2022Proceedings/data/T04.pdf",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      },
+      {
+        "text": "井原圭一，川口一画，「部屋の3次元縮小モデルを用いたMR空間内における仮想オブジェクト配置」，第29回インタラクティブシステムとソフトウェアに関するワークショップ（WISS 2021），日本ソフトウェア科学会，2021年12月8-10日，pp. 50-56。",
+        "links": [
+          {
+            "label": "Paper",
+            "href": "https://www.wiss.org/WISS2021Proceedings/data/08.pdf",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "heading": "Posters and Demos in Japanese",
+    "items": [
+      {
+        "text": "飯塚陸斗，大山智弘，杉山将利，下田康太，田之頭吾音，井原圭一，石橋遼，川口一画，「動的音高変化による方向提示手法設計のための基礎的調査」，第27回 一般社団法人情報処理学会シンポジウム（INTERACTION 2023），日本ソフトウェア科学会，2023年3月8-10日。",
+        "links": [
+          {
+            "label": "Paper",
+            "href": "./paper/interaction2023-SoundPointer.pdf",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "heading": "Thesis in Japanese",
+    "items": [
+      {
+        "text": "学士論文，学士（情報メディア科学），部屋の3次元縮小モデルを用いたMR空間内における仮想オブジェクト配置，筑波大学 情報学群 情報メディア創成学類，2022年2月，49 pages.",
+        "links": [
+          {
+            "label": "PDF",
+            "href": "https://www.iplab.cs.tsukuba.ac.jp/paper/bachelor/ihara_bachelor.pdf",
+            "icon": "./img/PDF_icon.svg"
+          }
+        ]
+      }
+    ]
+  }
+]
