@@ -188,12 +188,16 @@ function renderMedia(media) {
 
     video.className = "publication-media";
 
-    video.autoplay = true;
+    // Load and play only while the video is on screen (was: all videos autoplay at once).
     video.loop = true;
     video.muted = true;
     video.playsInline = true;
 
-    video.preload = "metadata";
+    video.preload = "none";
+
+    if (media.poster) {
+      video.poster = media.poster;
+    }
 
 
     const source = document.createElement("source");
@@ -203,6 +207,8 @@ function renderMedia(media) {
 
 
     video.appendChild(source);
+
+    playWhileVisible(video);
 
 
     return video;
@@ -322,4 +328,32 @@ function appendLinks(parent, item) {
 
 
   parent.appendChild(container);
+}
+
+/*
+ * Play a preview video only while it is visible.
+ * People who ask their system to reduce motion see the poster image instead.
+ */
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+const videoObserver = "IntersectionObserver" in window
+  ? new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) {
+          entry.target.play().catch(() => {});
+        } else {
+          entry.target.pause();
+        }
+      }
+    }, { rootMargin: "100px 0px" })
+  : null;
+
+function playWhileVisible(video) {
+  if (reduceMotion) return;
+
+  if (videoObserver) {
+    videoObserver.observe(video);
+  } else {
+    video.autoplay = true;
+  }
 }

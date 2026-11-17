@@ -10,8 +10,10 @@
         "venue": "The 39th Annual ACM Symposium on User Interface Software and Technology (UIST 2026)",
         "media": {
           "type": "video",
-          "src": "./video/uist2026-cinemaworld.mp4"
+          "src": "./video/uist2026-cinemaworld.mp4",
+          "poster": "./img/posters/uist2026-cinemaworld.jpg"
         },
+        "video_url": "https://www.youtube.com/watch?v=hpujArzf9Dw",
         "links": [
           {
             "label": "Paper",
@@ -28,7 +30,8 @@
         "venue": "The 38th Annual ACM Symposium on User Interface Software and Technology (UIST 2025)",
         "media": {
           "type": "video",
-          "src": "./video/uist2025-mapstory.mp4"
+          "src": "./video/uist2025-mapstory.mp4",
+          "poster": "./img/posters/uist2025-mapstory.jpg"
         },
         "video_url": "https://www.youtube.com/watch?v=sOsJ9f0otFY",
         "links": [
@@ -47,7 +50,8 @@
         "venue": "The 30th International Conference on Intelligent User Interfaces (IUI 2025)",
         "media": {
           "type": "video",
-          "src": "./video/iui2025_video2mr.mp4"
+          "src": "./video/iui2025_video2mr.mp4",
+          "poster": "./img/posters/iui2025_video2mr.jpg"
         },
         "video_url": "https://www.youtube.com/watch?v=f1L-2US25PU",
         "links": [
@@ -66,7 +70,8 @@
         "venue": "The 36th Annual ACM Symposium on User Interface Software and Technology (UIST 2023)",
         "media": {
           "type": "video",
-          "src": "./video/uist2023-holobots.mp4"
+          "src": "./video/uist2023-holobots.mp4",
+          "poster": "./img/posters/uist2023-holobots.jpg"
         },
         "video_url": "https://www.youtube.com/watch?v=KSBPtiXy8Hg",
         "links": [
@@ -85,7 +90,8 @@
         "venue": "The Asian CHI Symposium (Asian CHI Symposium 2023)",
         "media": {
           "type": "video",
-          "src": "./video/asianchi2023-DogVR.mp4"
+          "src": "./video/asianchi2023-DogVR.mp4",
+          "poster": "./img/posters/asianchi2023-DogVR.jpg"
         },
         "links": [
           {
@@ -103,7 +109,8 @@
         "venue": "The International Conference on Artificial Reality and Telexistence & the Eurographics Symposium on Virtual Environments (ICAT-EGVE 2022)",
         "media": {
           "type": "video",
-          "src": "./video/icat2022-miniatureAR.mp4"
+          "src": "./video/icat2022-miniatureAR.mp4",
+          "poster": "./img/posters/icat2022-miniatureAR.jpg"
         },
         "links": [
           {
@@ -121,7 +128,7 @@
         "venue": "The Asian CHI Symposium (Asian CHI 2022 Symposium)",
         "media": {
           "type": "image",
-          "src": "./img/AsianCHI06.png",
+          "src": "./img/thumbs/AsianCHI06.jpg",
           "alt": "Virtual Object Placement in MR Space paper preview"
         },
         "links": [
@@ -145,7 +152,7 @@
         "venue": "The International Conference on Artificial Reality and Telexistence & the Eurographics Symposium on Virtual Environments (ICAT-EGVE 2022)",
         "media": {
           "type": "image",
-          "src": "./img/MRRobot.png",
+          "src": "./img/thumbs/MRRobot.jpg",
           "alt": "Hybrid Robot poster preview"
         },
         "links": [
@@ -164,7 +171,7 @@
         "venue": "The International Conference on Artificial Reality and Telexistence & the Eurographics Symposium on Virtual Environments (ICAT-EGVE 2022)",
         "media": {
           "type": "image",
-          "src": "./img/Dog.png",
+          "src": "./img/thumbs/Dog.jpg",
           "alt": "Animal avatar poster preview"
         },
         "links": [
