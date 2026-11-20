@@ -255,6 +255,12 @@ function appendLinks(parent, item) {
   }
 
 
+  // Project pages go last, to the right of Video.
+  links.sort(
+    (a, b) => (a.kind === "project") - (b.kind === "project")
+  );
+
+
   if (links.length === 0) {
     return;
   }
@@ -296,6 +302,11 @@ function appendLinks(parent, item) {
 
       icon.className =
         "bi bi-play-fill";
+
+    } else if (link.kind === "project") {
+
+      icon.className =
+        "bi bi-globe2";
 
     } else if (
       link.label === "Paper" ||

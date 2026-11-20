@@ -19,13 +19,14 @@
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="stylesheet" href="./css/site.css">
+  <link rel="stylesheet" href="./css/site.css?v=8">
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
   >
-  <script src="./js/publications.js?v=4" defer></script>
+  <script src="./js/publications.js?v=6" defer></script>
   <script src="./js/career.js?v=1" defer></script>
+  <script src="./js/nav.js?v=2" defer></script>
 </head>
 
 <body>
@@ -56,26 +57,25 @@
             target="_blank"
             rel="noopener noreferrer">
             <i class="bi bi-mortarboard-fill" aria-hidden="true"></i>
-            Google Scholar
+            <span class="label-long">Google </span>Scholar
           </a>
           <a href="https://www.linkedin.com/in/keiichi-ihara" target="_blank" rel="noopener noreferrer">
             <i class="bi bi-linkedin" aria-hidden="true"></i>
             LinkedIn
           </a>
+          <a class="email-link" href="#" data-user="keiichi.ihara" data-domain="colorado.edu" title="keiichi.ihara[at]colorado.edu">
+            <i class="bi bi-envelope" aria-hidden="true"></i>
+            Email
+          </a>
         </nav>
 
-        <section class="profile-section">
+        <section class="profile-section interests-section" id="interests">
           <h2 class="sidebar-heading"><i class="bi bi-star-fill" aria-hidden="true"></i> Interests</h2>
           <p>Human-Computer Interaction</p>
           <p>XR (MR/AR/VR)</p>
         </section>
 
-        <section class="profile-section">
-          <h2 class="sidebar-heading"><i class="bi bi-envelope" aria-hidden="true"></i> Contact</h2>
-          <p>keiichi.ihara[at]colorado.edu</p>
-        </section>
-
-        <section class="profile-section career-section">
+        <section class="profile-section career-section" id="career">
           <h2 class="sidebar-heading"><i class="bi bi-briefcase-fill" aria-hidden="true"></i> Career</h2>
 
           <div id="career-list">
@@ -86,15 +86,16 @@
 
       <main class="main-content">
         <nav class="mobile-nav" aria-label="Page sections">
-          <details>
+          <details open>
             <summary>Contents</summary>
             <div class="mobile-nav-links">
               <a href="#publications">Publications</a>
+              <a href="#career">Career</a>
               <a href="#awards">Awards</a>
               <a href="#internship">Internship</a>
               <a href="#scholarship">Scholarship</a>
-              <a href="#conference-service">Conference Service</a>
-              <a href="#teaching-assistant">Teaching Assistant</a>
+              <a href="#conference-service">Service</a>
+              <a href="#teaching-assistant">Teaching</a>
             </div>
           </details>
         </nav>
@@ -109,9 +110,9 @@
         <section class="content-section" id="awards">
           <h2 class="section-title">Awards</h2>
           <div class="info-card">
-            <p>2024.03&nbsp;&nbsp;Program Leader Award in Computer Science, University of Tsukuba</p>
-            <p>2022.03&nbsp;&nbsp;Dean of School of Informatics Award, University of Tsukuba</p>
-            <p>2021.02&nbsp;&nbsp;Ibaraki Digital Content and Software Awards 2020<br>
+            <p><span class="item-date">2024.03</span>Program Leader Award in Computer Science, University of Tsukuba</p>
+            <p><span class="item-date">2022.03</span>Dean of School of Informatics Award, University of Tsukuba</p>
+            <p><span class="item-date">2021.02</span>Ibaraki Digital Content and Software Awards 2020<br>
               Award for Excellence in the software category</p>
           </div>
         </section>
@@ -120,7 +121,7 @@
           <h2 class="section-title">Internship</h2>
           <div class="info-card">
             <p>
-              2022.10 - 2022.12&nbsp;&nbsp;GREE, Inc. Internship
+              <span class="item-date">2022.10 - 2022.12</span>GREE, Inc. Internship
               &nbsp;&nbsp;
               <a href="https://corp.gree.net/jp/ja/recruit/internship/jobs/" target="_blank" rel="noopener noreferrer">
                 <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
@@ -133,22 +134,22 @@
         <section class="content-section" id="scholarship">
           <h2 class="section-title">Scholarship, Funding, Fee Exemptions</h2>
           <div class="info-card">
-            <p>2025&nbsp;&nbsp;KDDI Foundation Scholarship</p>
-            <p>2024.04 - 2025.03&nbsp;&nbsp;NEC C&amp;C foundation (150,000 JPY/month)</p>
-            <p>2023.10 - 2023.11&nbsp;&nbsp;University of Tsukuba Study Abroad Support Project (Habatake!) (150,000 JPY)</p>
-            <p>2023.07 - 2023.09&nbsp;&nbsp;UCalgary Mitacs Globalink Research Award (6,000 CAD)</p>
-            <p>2023.04 - 2024.03&nbsp;&nbsp;Tuition Fee Exemption (535,800 JPY)</p>
-            <p>2022.04 - 2024.03&nbsp;&nbsp;Japan Student Services Organization (88,000 JPY/month)</p>
+            <p><span class="item-date">2025</span>KDDI Foundation Scholarship</p>
+            <p><span class="item-date">2024.04 - 2025.03</span>NEC C&amp;C foundation (150,000 JPY/month)</p>
+            <p><span class="item-date">2023.10 - 2023.11</span>University of Tsukuba Study Abroad Support Project (Habatake!) (150,000 JPY)</p>
+            <p><span class="item-date">2023.07 - 2023.09</span>UCalgary Mitacs Globalink Research Award (6,000 CAD)</p>
+            <p><span class="item-date">2023.04 - 2024.03</span>Tuition Fee Exemption (535,800 JPY)</p>
+            <p><span class="item-date">2022.04 - 2024.03</span>Japan Student Services Organization (88,000 JPY/month)</p>
           </div>
         </section>
 
         <section class="content-section" id="conference-service">
           <h2 class="section-title">Conference Service</h2>
           <div class="info-card">
-            <p>Reviewer&nbsp;&nbsp;CHI 2026, UIST 2026, UIST 2025, SIGGRAPH Asia 2025, CHI 2024</p>
-            <p>Student Volunteer&nbsp;&nbsp;CHI 2025, IUI 2025</p>
+            <p><span class="item-date">Reviewer</span>CHI 2026, UIST 2026, UIST 2025, SIGGRAPH Asia 2025, CHI 2024</p>
+            <p><span class="item-date">Student Volunteer</span>CHI 2025, IUI 2025</p>
             <p>
-              2021.12&nbsp;&nbsp;WISS2021 Student Volunteers
+              <span class="item-date">2021.12</span>WISS2021 Student Volunteers
               &nbsp;&nbsp;
               <a href="https://www.wiss.org/WISS2021/" target="_blank" rel="noopener noreferrer">
                 <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
@@ -162,7 +163,7 @@
           <h2 class="section-title">Teaching Assistant</h2>
           <div class="info-card">
             <p>
-              2022.10 - 2023.02<br>
+              <span class="item-date">2022.10 - 2023.02</span>
               Teaching Assistant at University of Tsukuba<br>
               Beginner's Guide to Programming with Buntarou Shizuki
             </p>

@@ -4,7 +4,7 @@
     "items": [
       {
         "title": "CinemaWorld: Generative Augmented Reality with LLMs and 3D Scene Generation for Movie Augmentation",
-        "url": "https://arxiv.org/abs/2603.08060",
+        "url": "https://dl.acm.org/doi/10.1145/3830398.3830520",
         "venue_short": "UIST 2026",
         "authors": "Keiichi Ihara, DaeHo Lee, Manato Abe, Hye-Young Jo, Ryo Suzuki",
         "venue": "The 39th Annual ACM Symposium on User Interface Software and Technology (UIST 2026)",
@@ -16,8 +16,13 @@
         "video_url": "https://www.youtube.com/watch?v=hpujArzf9Dw",
         "links": [
           {
+            "label": "Project Page",
+            "href": "https://keiichiihara.github.io/cinemaworld/",
+            "kind": "project"
+          },
+          {
             "label": "Paper",
-            "href": "./paper/uist2026-cinemaworld.pdf",
+            "href": "https://dl.acm.org/doi/pdf/10.1145/3830398.3830520",
             "icon": "./img/PDF_icon.svg"
           }
         ]
@@ -37,7 +42,7 @@
         "links": [
           {
             "label": "Paper",
-            "href": "./paper/uist2025-mapstory.pdf",
+            "href": "https://dl.acm.org/doi/pdf/10.1145/3746059.3747664",
             "icon": "./img/PDF_icon.svg"
           }
         ]
@@ -57,7 +62,7 @@
         "links": [
           {
             "label": "Paper",
-            "href": "./paper/iui2025-Video2mr.pdf",
+            "href": "https://dl.acm.org/doi/pdf/10.1145/3708359.3712159",
             "icon": "./img/PDF_icon.svg"
           }
         ]
@@ -77,7 +82,7 @@
         "links": [
           {
             "label": "Paper",
-            "href": "./paper/uist2023-HoloBots.pdf",
+            "href": "https://dl.acm.org/doi/pdf/10.1145/3586183.3606727",
             "icon": "./img/PDF_icon.svg"
           }
         ]

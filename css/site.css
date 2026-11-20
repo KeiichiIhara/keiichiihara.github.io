@@ -420,6 +420,16 @@ a:hover {
   padding: 14px 16px 16px;
 }
 
+.item-date {
+  margin-right: 0.6em;
+}
+
+@media (max-width: 767px) {
+  .label-long {
+    display: none;
+  }
+}
+
 .loading,
 .load-error {
   color: var(--muted);
@@ -447,38 +457,235 @@ a:hover {
     --page-padding: 18px;
   }
 
+  body {
+    font-size: 15px;
+  }
+
   .site-shell {
     padding-top: 22px;
   }
 
   .site-header {
-    margin-bottom: 28px;
+    margin-bottom: 18px;
   }
 
+  /* Phones: the sidebar's parts join one grid. Photo and affiliation sit
+     side by side, links follow as one row, then the main content;
+     Interests and Career move below it. */
   .layout {
-    grid-template-columns: 1fr;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 96px minmax(0, 1fr);
+    column-gap: 16px;
+    row-gap: 0;
   }
 
   .sidebar {
-    width: 100%;
+    display: contents;
   }
 
   .profile-photo {
-    width: 200px;
-    height: 200px;
+    grid-column: 1;
+    width: 96px;
+    height: 96px;
+    margin: 0;
+    border-radius: 6px;
   }
 
+  .profile-section {
+    grid-column: 1 / -1;
+    margin-bottom: 26px;
+  }
+
+  .profile-section:first-of-type {
+    grid-column: 2;
+    align-self: center;
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.5;
+  }
+
+  .profile-section:first-of-type .sidebar-heading {
+    display: none;
+  }
+
+  .profile-section:first-of-type p {
+    margin: 0 0 4px;
+  }
+
+  .profile-links {
+    grid-column: 1 / -1;
+    display: flex;
+    gap: 18px;
+    margin: 16px 0 22px;
+  }
+
+  .profile-links a {
+    gap: 6px;
+    font-size: 0.86rem;
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  /* The main column's parts join the same grid, so Career can sit
+     between Publications and Awards, with Interests last. */
+  .main-content {
+    display: contents;
+  }
+
+  .mobile-nav,
+  .content-section,
+  .profile-section:not(:first-of-type) {
+    grid-column: 1 / -1;
+  }
+
+  .mobile-nav { order: 1; }
+  #publications { order: 2; }
+  #career { order: 3; }
+  #awards { order: 4; }
+  #internship { order: 5; }
+  #scholarship { order: 6; }
+  #conference-service { order: 7; }
+  #teaching-assistant { order: 8; }
+  #interests { order: 9; }
+
+  .profile-section:first-of-type {
+    align-self: center;
+  }
+
+
+  /* Career and Interests read as page sections on phones. */
+  .profile-section:not(:first-of-type) {
+    margin-bottom: 44px;
+    scroll-margin-top: 64px;
+  }
+
+  .profile-section:not(:first-of-type) .sidebar-heading {
+    margin: 0 0 18px;
+    padding: 0.16em 0 0.16em 0.55em;
+    border-left: 6px solid var(--blue-200);
+    color: var(--text);
+    font-size: 1.3rem;
+    line-height: 1.35;
+  }
+
+  .profile-section:not(:first-of-type) .sidebar-heading .bi {
+    display: none;
+  }
+
+  #interests {
+    margin-bottom: 28px;
+  }
+
+  /* Section bar: text tabs, the current one underlined. */
   .mobile-nav {
     display: block;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    margin: 0 calc(-1 * var(--page-padding)) 24px;
+    padding: 0 var(--page-padding);
+    background: #ffffff;
+    border-bottom: 1px solid #e3e8ec;
+  }
+
+  .mobile-nav details {
+    background: none;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .mobile-nav summary {
+    display: none;
+  }
+
+  .mobile-nav-links {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .mobile-nav-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mobile-nav-links a {
+    flex: 0 0 auto;
+    padding: 13px 0 11px;
+    border-bottom: 2.5px solid transparent;
+    color: #8a9097;
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1.2;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  .mobile-nav-links a:hover {
+    opacity: 1;
+  }
+
+  .mobile-nav-links a.is-active {
+    color: var(--text);
+    border-bottom-color: #41acef;
+  }
+
+  .content-section {
+    margin-bottom: 44px;
+    scroll-margin-top: 64px;
+  }
+
+  .section-title {
+    margin-bottom: 18px;
+    font-size: 1.3rem;
   }
 
   .publication-card {
     grid-template-columns: 1fr;
-    gap: 18px;
+    gap: 14px;
+    padding: 14px;
   }
 
-  .content-section {
-    margin-bottom: 48px;
+  .publication-title {
+    font-size: 1.05rem;
+  }
+
+  .publication-authors {
+    font-size: 0.86rem;
+  }
+
+  .publication-links {
+    gap: 8px;
+    margin-top: 14px;
+  }
+
+  .publication-link {
+    min-height: 36px;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+
+  .text-publication,
+  .info-card {
+    padding: 14px;
+  }
+
+  .text-publication p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  /* Dates on their own line above each entry. */
+  .item-date {
+    display: block;
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .info-card p + p {
+    margin-top: 14px;
   }
 }
